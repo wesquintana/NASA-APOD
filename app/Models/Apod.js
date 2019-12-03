@@ -4,7 +4,7 @@ export default class Apod {
     this.title = data.title;
   }
   get Template() {
-    return /*html*/ `<h1>Title: ${this.title}</h1>
+    return /*html*/ `<h1 class="text-center">${this.title}</h1>
   <img id="image"src="${this.imgurl}" alt=""/>
   `;
   }
